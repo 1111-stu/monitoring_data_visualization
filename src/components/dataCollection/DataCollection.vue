@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>我是角色列表页</h1>
+        <h1>我是数据列表</h1>
   </div>
 </template>
 
@@ -8,6 +8,7 @@
   export default {
   data() {
     return {
+
     };
   },
   created() {

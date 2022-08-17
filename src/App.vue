@@ -1,27 +1,27 @@
 <template>
   <div>
-    <h1>hahhahhhh</h1>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import {roleList} from 'api/roleManagement/roleList'
-  export default {
+export default {
   data() {
-    return {
-    };
+    return {};
   },
   created() {
-    this.getRoleList()
   },
   methods: {
-    async getRoleList(){
-      const res = await roleList()
-      console.log(res)
-    },
   },
-}
+  components:{
+  
+  }
+};
 </script>
 
 <style lang='less' scoped>
+*{
+  margin:0;
+  padding: 0;
+}
 </style>
