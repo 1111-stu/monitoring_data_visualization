@@ -1,5 +1,6 @@
 module.exports = {
     runtimeCompiler: true,
+    lintOnSave:false, //关闭语法检查
     publicPath: '/',
     devServer: {
         host: 'localhost',  // 自定义域名，需要在hosts文件里配置
