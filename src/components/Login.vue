@@ -95,7 +95,7 @@ export default {
     async register(form) {
       form.password = md5(form.password);
       let res = await registration(form);
-      console.log(res);
+      // console.log(res);
     },
     toLogin(form) {
       console.log(form);
