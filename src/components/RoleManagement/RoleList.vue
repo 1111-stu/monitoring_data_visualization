@@ -5,18 +5,27 @@
 </template>
 
 <script>
-  export default {
+import { roleList } from "api/roleManagement/roleList";
+export default {
   data() {
     return {
+      pageIndex: 3,
+      pageSize: 2,
     };
   },
   created() {
-
+    this.getRoleList();
   },
   methods: {
-
+    async getRoleList() {
+      const res = await roleList({
+        pageIndex: this.pageIndex,
+        pageSize: this.pageSize,
+      });
+      console.log(res);
+    },
   },
-}
+};
 </script>
 
 <style lang='less' scoped>

@@ -13,7 +13,7 @@ module.exports = {
                 // target 是后端给你的服务，可以通过ip配置，也可以通过域名配置
                 // 当请求接口的时候遇到 "/api" 会自动转为target里的服务，解决跨域
                 // 配置域名
-                target:'http://101.132.139.188:9012/',//本地跑通的网易云api地址
+                target:'http://101.132.139.188:9012',//后端接口地址
                 ws: true,
                 changeOrigin: true,
                 pathRewrite: {
