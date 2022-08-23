@@ -57,7 +57,7 @@ export default {
     return {
       operateType: "add",
       isShow: false,
-      // 用于渲染element组件
+      // 用于渲染表单组件
       opertateFormLabel: [
         {
           model: "username",
