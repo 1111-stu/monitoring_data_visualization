@@ -46,7 +46,7 @@ import { Dialog, Button, MessageBox } from "element-ui";
 import CommonForm from "../../common/CommonForm.vue";
 import CommonTable from "../../common/CommonTable.vue";
 export default {
-  name: "user",
+  name: "UsersList",
   components: {
     CommonForm,
     CommonTable,

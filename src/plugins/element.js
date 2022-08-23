@@ -1,10 +1,14 @@
 // element-ui按需加载
 import Vue from 'vue';
-import {Menu,Submenu,MenuItem,MenuItemGroup,Container,Header,Aside,main,Carousel,Message,MessageBox,Button,Form,FormItem,Select,Option,
-OptionGroup,Input,Tree,Dialog,Row,Col} from 'element-ui';
- 
+import {
+  Menu, Submenu, MenuItem, MenuItemGroup,Container, Header, Aside, Main, Dropdown,
+  DropdownMenu,  DropdownItem, Breadcrumb,
+  BreadcrumbItem, Tag,Carousel, Message, MessageBox, Button, Form, FormItem, Select, Option,
+  OptionGroup, Input, Tree, Dialog, Row, Col
+} from 'element-ui';
+
 const element = {
-  install:function(Vue){
+  install: function (Vue) {
     Vue.use(Menu)
     Vue.use(Submenu)
     Vue.use(MenuItem)
@@ -12,7 +16,13 @@ const element = {
     Vue.use(Container)
     Vue.use(Header)
     Vue.use(Aside)
-    Vue.use(main)
+    Vue.use(Main)
+    Vue.use(Dropdown)
+    Vue.use(DropdownMenu)
+    Vue.use(DropdownItem)
+    Vue.use(Breadcrumb)
+    Vue.use(BreadcrumbItem)
+    Vue.use(Tag)
     Vue.use(Select)
     Vue.use(Option)
     Vue.use(OptionGroup)
