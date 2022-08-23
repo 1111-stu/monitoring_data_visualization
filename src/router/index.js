@@ -21,10 +21,12 @@ const routes = [
     component: () => import('../layout/Home.vue'),
     redirect: '/roleList',
     children: [
-      { path: '/roleList', component: () => import('components/RoleManagement/RoleList.vue') },
+      { path: '/roleList', component: () => import('components/roleManagement/RoleList.vue') },
       { path: '/usersList', component: () => import('components/userManagement/UsersList.vue') },
       { path: '/dataCollection', component: () => import('components/dataCollection/DataCollection.vue') },
       { path: '/projectList', component: () => import('components/projectManagement/ProjectList.vue') },
+      { path: '/page1', component: () => import('components/other/Page1.vue') },
+      { path: '/page2', component: () => import('components/other/Page2.vue') },
     ]
   }
 ]

@@ -1,12 +1,12 @@
 <template>
   <div>
-        <h1>我是数据列表</h1>
+    这里是page2
   </div>
 </template>
 
 <script>
   export default {
-  name:"DataCollection",
+   name: 'Page2',
   data() {
     return {
 
